@@ -1,0 +1,22 @@
+{
+  "name": "quantumcoin-zeroenergy",
+  "version": "1.0.0",
+  "description": "Революционная криптовалюта с нулевыми комиссиями",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-node": "node src/core/node.js",
+    "start-wallet": "node src/wallet/cli.js",
+    "test": "jest",
+    "build": "webpack --mode production"
+  },
+  "keywords": ["cryptocurrency", "blockchain", "zero-energy", "zero-fees"],
+  "author": "QuantumCoin Team",
+  "license": "MIT",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "elliptic": "^6.5.4",
+    "ws": "^8.13.0",
+    "express": "^4.18.2"
+  }
+}
